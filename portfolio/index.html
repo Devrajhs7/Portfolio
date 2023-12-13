@@ -1,0 +1,619 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Borel&family=Caveat:wght@400;600&family=Pacifico&family=Preahvihear&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Borel&family=Pacifico&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>D-POrtfolio</title>
+    <style>
+        *{
+            margin: 0;
+        }
+        .home{
+            height: 800px;
+            width: 100%;
+            background-color: Black;
+        }
+        .home nav{
+            height: 70px;
+            width: 100%;
+            background-color: azure;
+            border-radius: 10px;
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+            position: fixed;
+            top: 0px;
+        }
+        nav{
+            font-size: 20px;
+            font-family: 'Borel', cursive;
+
+        }
+        .name{
+            position: absolute;
+            left: 27%;
+            top:50%;
+            
+        }
+        h1{
+            font-family: 'Borel', cursive;
+font-family: 'Caveat', cursive;
+font-family: 'Pacifico', cursive;
+font-family: 'Preahvihear', sans-serif;
+color: aliceblue;
+font-size: 77px;
+        }
+        h2{
+            font-family: 'Borel', cursive;
+font-family: 'Caveat', cursive;
+font-family: 'Handjet', cursive;
+font-family: 'Pacifico', cursive;
+font-family: 'Preahvihear', sans-serif;
+color: beige;
+font-size: 30px;
+        }
+.material-symbols-outlined {
+    animation: bounce 1s ease alternate infinite   ;
+    transition: all 1s ease;
+        color: aliceblue;
+        font-size: 50px;
+        font-variation-settings:
+        'FILL' 0,
+        'wght' 400,
+        'GRAD' 0,
+        'opsz' 48
+        
+        
+        
+    }
+    @keyframes bounce{
+            form{
+                    transform: translateY(0px);
+            }
+            to{
+                transform: translateY(20px);
+            }
+        }
+
+        .About{
+            height: 700px;
+            width: 100%;
+            background-color: rgb(65, 61, 61);
+        }
+        .About h2{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .About img{
+            height: 250px;
+            width: 230px;
+            border-radius: 50%;
+            
+            
+            
+        }
+        .About p{
+            color: antiquewhite;
+            font-size: 25px;
+            position: absolute;
+            left: 70px;
+        }
+        .project{
+            height: 700px;
+            width: 100%;
+            background-color: rgba(114, 106, 106, 0.875);
+            display: inline-block;
+            position: relative;
+            
+            
+
+        }
+        .pbox{
+            height: 500px;
+            width: 850px;
+            background-color: black;
+            position: relative;
+            top: 100px;
+            left: 300px;
+        }
+        .pbox img{
+            height: 500px;
+            width: 850px;
+            border: 2px white solid;
+            position: absolute;
+            top: 0px;
+            left: 0px;
+            
+        }
+        .ptext h4{
+            font-size: 30px;
+            color: rgb(56, 34, 34);
+        }
+        .ptext{
+            position: absolute;
+            right: 100px;
+            bottom: 20px;
+        }
+        .project2{
+            height: 700px;
+            width: 100%;
+            background-color: rgba(129, 99, 99, 0.875);
+            display: inline-block;
+            position: relative;
+            
+            
+
+        }
+        .pbox2{
+            height: 500px;
+            width: 850px;
+            background-color: black;
+            position: absolute;
+            top: 100px;
+            left: 300px;
+        }
+        .pbox2 img{
+            height: 500px;
+            width: 850px;
+            border: 2px white solid;
+            position: absolute;
+            top: 0px;
+            left: 0px;
+            
+        }
+        .ptext2 h4{
+            font-size: 30px;
+            color: rgb(56, 34, 34);
+        }
+        .ptext2{
+            position: absolute;
+            right: 100px;
+            bottom: 20px;
+        }
+        .project3{
+            height: 700px;
+            width: 100%;
+            background-color: rgba(114, 106, 106, 0.875);
+            display: inline-block;
+            position: relative;
+            
+            
+
+        }
+        .pbox3{
+            height: 500px;
+            width: 850px;
+            background-color: black;
+            position: relative;
+            top: 100px;
+            left: 300px;
+        }
+        .pbox3 img{
+            height: 500px;
+            width: 850px;
+            border: 2px white solid;
+            position: absolute;
+            top: 0px;
+            left: 0px;
+            
+        }
+        .ptext3 h4{
+            font-size: 30px;
+            color: rgb(56, 34, 34);
+        }
+        .ptext3{
+            position: absolute;
+            right: 100px;
+            bottom: 20px;
+        }
+
+        /* cSS FOR SKILL */
+        .skill {
+            width: 100%;
+            height:900px;
+            background-color: BLACK;
+            position: relative;
+            
+        }
+
+        .skill h1 {
+            font-family: 'Playfair Display', serif;
+            position: relative;
+            margin-left: 650px;
+            top: 10px;
+            font-size: 30px;
+        }
+
+        .skill .inner_skill {
+            position: relative;
+            top: 30px;
+            height: 470px;
+            width: 60%;
+            background-color: rgb(105, 124, 138);
+            left: 20%;
+            border-radius: 20px;
+        }
+
+        .skill .inner_skill p {
+            font-size: 23px;
+            padding: 7px;
+            font-family: 'Rubik Wet Paint', cursive;
+            text-shadow: 1px 1px rgb(232, 229, 229);
+        }
+
+        .skill .inner_skill .skill_rating {
+            width: 90%;
+            background-color: #9fe5f1;
+            border-radius: 5px;
+            height: 20px;
+            position: relative;
+            left: 30px;
+        }
+
+        .skill .inner_skill .rating_bar1 {
+            background-color: #e50e0e;
+            border-radius: 5px;
+            height: 100%;
+            width: 70%;
+            /* Adjust this value to set the initial rating */
+            transition: width 1s ease-in-out;
+
+
+            animation-name: load1;
+            animation-duration: 3s;
+            animation-timing-function: ease-in-out;
+            animation-iteration-count: initial;
+            animation-direction: alternate;
+        }
+
+        @keyframes load1 {
+            from {
+                width: 0px;
+            }
+
+            to {
+                width: 70%;
+            }
+        }
+
+        .skill .inner_skill .rating_bar2 {
+            background-color: #ffffff;
+            border-radius: 5px;
+            height: 100%;
+            width: 55%;
+            /* Adjust this value to set the initial rating */
+            transition: width 1s ease-in-out;
+
+
+            animation-name: load2;
+            animation-duration: 3s;
+            animation-timing-function: ease-in-out;
+            animation-iteration-count: initial;
+            animation-direction: alternate;
+        }
+
+        @keyframes load2 {
+            from {
+                width: 0px;
+            }
+
+            to {
+                width: 55%;
+            }
+        }
+
+
+        .skill .inner_skill .rating_bar4 {
+            background-color: #ff009d;
+            border-radius: 5px;
+            height: 100%;
+            width: 70%;
+            /* Adjust this value to set the initial rating */
+            transition: width 1s ease-in-out;
+
+
+            animation-name: load3;
+            animation-duration: 3s;
+            animation-timing-function: ease-in-out;
+            animation-iteration-count: initial;
+            animation-direction: alternate;
+        }
+
+        @keyframes load3 {
+            from {
+                width: 0px;
+            }
+
+            to {
+                width: 70%;
+            }
+        }
+
+        .skill .inner_skill .rating_bar5 {
+            background-color: #f6bf48;
+            border-radius: 5px;
+            height: 100%;
+            width: 90%;
+            /* Adjust this value to set the initial rating */
+            transition: width 1s ease-in-out;
+
+
+            animation-name: load4;
+            animation-duration: 3s;
+            animation-timing-function: ease-in-out;
+            animation-iteration-count: initial;
+            animation-direction: alternate;
+        }
+
+        @keyframes load4 {
+            from {
+                width: 0px;
+            }
+
+            to {
+                width: 90%;
+            }
+        }
+
+        .skill .inner_skill .rating_bar6 {
+            background-color: #23700b;
+            border-radius: 5px;
+            height: 100%;
+            width: 85%;
+            /* Adjust this value to set the initial rating */
+            transition: width 1s ease-in-out;
+
+
+            animation-name: load5;
+            animation-duration: 3s;
+            animation-timing-function: ease-in-out;
+            animation-iteration-count: initial;
+            animation-direction: alternate;
+        }
+
+        @keyframes load5 {
+            from {
+                width: 0px;
+            }
+
+            to {
+                width: 85%;
+            }
+        }
+
+        .skill .inner_skill .rating_bar7 {
+            background-color: #886363;
+            border-radius: 5px;
+            height: 100%;
+            width: 70%;
+            /* Adjust this value to set the initial rating */
+            transition: width 1s ease-in-out;
+            animation-name: load6;
+            animation-duration: 3s;
+            animation-timing-function: ease-in-out;
+            animation-iteration-count: initial;
+            animation-direction: alternate;
+        }
+
+        @keyframes load6 {
+            from {
+                width: 0px;
+            }
+
+            to {
+                width: 70%;
+            }
+        }
+
+        /* contact css section */
+        .contact {
+            height: 800px;
+            width: 100%;
+            background-color: cadetblue;
+            position: absolute;
+            top:650px;
+        }
+
+        .contact .resume {
+            margin: 0px 0px 0px 100px;
+            position: relative;
+            top: 380px;
+            margin-left: 600px;
+        }
+
+        .resume button {
+            background: none;
+            height: 50px;
+            border: 1px solid;
+            border-radius: 5px;
+            padding: 15px 20px;
+            cursor: pointer;
+        }
+
+        .resume a {
+            text-decoration: none;
+            color: black;
+            font-weight: bold;
+            font-size: 15px;
+        }
+
+        .social {
+            display: flex;
+            position: relative;
+            top: 180px;
+            margin-left: 535px;
+
+        }
+
+        .social img {
+            height: 50px;
+            width: 50px;
+            mix-blend-mode: multiply;
+        }
+
+        .social a {
+            border: 0px solid;
+            border-radius: 50%;
+            position: relative;
+            margin: 20px;
+        }
+        .contact h1{
+            position: relative;
+            top: 40px;
+            font-family: 'Playfair Display', serif;
+            margin-left: 650px;
+        }
+        .contact>img{
+            mix-blend-mode:multiply;
+            height: 150px;
+            width:200px;
+            position:relative;
+            top: 150px;
+            margin-left: 650px;
+        }
+    </style>
+</head>
+<body>
+    <div class="main">
+        <div class="home">
+            <nav>
+            <a href="#01">About</a>
+            <a href="#XYZ">Project</a>
+            <a href="#ABC">Contact</a>
+            </nav>
+            <div class="name">
+            <h1>Hi, I'm Devraj.H.S</h1>
+            <h2>Python full stack Developer</h2> 
+            <a href="#icon" >
+                <span class="material-symbols-outlined" id="icon">
+                expand_more
+                </span>
+            </span>
+            </a>
+            </div>
+        </div>
+    </div>
+    <!-- Home section ends -->
+    <!-- About Section starts -->
+    <div class="About" id="01">
+        <h2>About me</h2>
+
+        <center>
+            <img src="Edited-removebg-preview.png" alt="">
+        </center><br><br>
+        <p>I'm 27 years old, completed my post-grad MSc in Computer Science from 'Davanagere University'. I really enjoy problem solving as well as making things pretty and easy to use.I can't stop learning new things, I belive in "ಕರ್ಮಣ್ಯೇವಾಧಿಕಾರಸ್ತೇ ಮಾ ಫಲೇಷು ಕದಾಚನ ।'</p>
+
+    </div>
+    <!-- About section ends -->
+
+    <!--Project section starts  -->
+<!-- FPROJ1 -->
+    <div class="project" id="XYZ">
+
+        <div class="pbox">
+            <img src="PROJ1.png" alt="">
+        </div>
+
+        <div class="ptext">
+            <h4 id="A">E-commerce website</h4><br>
+            <a href="https://devrajhs7.github.io/e-comm/" ><button>View Project</button></a>
+            <a href="https://github.com/Devrajhs7/e-comm" ><button>Source Code</button></a>
+        </div>
+
+
+
+    </div>
+
+    <!--   PROJ 2 -->
+
+    <div class="project2">
+
+        <div class="pbox2">
+            <img src="proj2.png" alt="">
+        </div>
+
+        <div class="ptext2">
+            <h4 id="A">OTT site</h4><br>
+            <a href="https://devrajhs7.github.io/OTT-site/" ><button>View Project</button></a>
+            <a href="https://github.com/Devrajhs7/OTT-site" ><button>Source Code</button></a>
+        </div>
+
+
+
+    </div>
+    <!--   PROJ 3 -->
+
+    <div class="project3">
+
+        <div class="pbox3">
+            <img src="proj3.png" alt="">
+        </div>
+
+        <div class="ptext3">
+            <h4 id="A">Car Running animation</h4><br>
+            <a href="https://devrajhs7.github.io/Animation.d/" ><button>View Project</button></a>
+            <a href="https://github.com/Devrajhs7/Animation.d" ><button>Source Code</button></a>
+        </div>
+
+
+
+    </div>
+    <!-- Project section ends -->
+
+    <!-- sKILL PAGE -->
+    <div class="skill">
+        <h1>MY SKILLS</h1>
+        <div class="inner_skill">
+
+            <p>C Program</p>
+            <div class="skill_rating">
+                <div class="rating_bar1"></div>
+            </div>
+            <p>C++</p>
+            <div class="skill_rating">
+                <div class="rating_bar2"></div>
+            </div>
+            <p>Python</p>
+            <div class="skill_rating">
+                <div class="rating_bar4"></div>
+            </div>
+            <p>HTML</p>
+            <div class="skill_rating">
+                <div class="rating_bar5"></div>
+            </div>
+            <p>CSS</p>
+            <div class="skill_rating">
+                <div class="rating_bar6"></div>
+            </div>
+            <p>SQL</p>
+            <div class="skill_rating">
+                <div class="rating_bar7"></div>
+            </div>
+        </div>
+
+        <div class="contact" id="ABC">
+            <h1>CONTACT ME</h1>
+            <!-- <img src="anim2.gif" alt=""> -->
+            <div class="resume">
+                <button><a href="Developer.pdf" target="_blank">View Resume</a></button>
+                <button><a href="Developer.pdf" download="resume" target="_blank">Download Resume</a></button>
+            </div>
+            <div class="social">
+                <a href="tel:8123789522" title="8123789522"><img src="phone.png" alt=""></a>
+                <a href="mailto: Dhs@yahoo.com" title="Dhs@yahoo.com"><img src="email.jpg"
+                        alt=""></a>
+                <!-- <a href="https://www.linkedin.com/in/ganeshprasad21/" target="_blank"><img src="linkedin.jpg" alt=""></a> -->
+                <a href="https://github.com/Devrajhs7/" target="_blank"><img src="git.jpg" alt=""></a>
+                <a href="https://www.instagram.com/imdevrajhs/" target="_blank"><img src="insta.jpg" alt=""></a>
+            </div>
+        </div>
+</body>
+</html>
